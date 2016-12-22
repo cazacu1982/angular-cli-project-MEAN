@@ -32,3 +32,15 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
 
 About Project:
 
+1.The front-end of this project was generated with Angular CLI.
+
+This project uses the MEAN stack:
+
+Mongoose.js (MongoDB): database
+Express.js: backend framework
+Angular 2: frontend framework
+Node.js: runtime environment
+Angular CLI: project scaffolding
+Bootstrap: layout and styles
+Font Awesome: icons
+
