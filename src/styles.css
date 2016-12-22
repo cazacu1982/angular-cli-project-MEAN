@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #bababa;
+}
+footer {
+  text-align: center;
+  font-weight: 600;
+  }
+
+@media screen and (max-width: 787px) {
+  .card-block {
+padding: 1%;
+  }
+}
