@@ -34,7 +34,7 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
 
 1.The front-end of this project was generated with Angular CLI.
   
-  This project uses the [MEAN stack:](https://en.wikipedia.org/wiki/MEAN_(software_bundle))
+  This project uses the [MEAN stack:](https://en.wikipedia.org/wiki/MEAN_(software_bundle)) 
   
   Mongoose.js (MongoDB): database
   Express.js: backend framework
