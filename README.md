@@ -36,11 +36,40 @@ To get more help on the `angular-cli` use `ng help` or go check out the [Angular
   
   This project uses the [MEAN stack:](https://en.wikipedia.org/wiki/MEAN_(software_bundle)) 
   
-  Mongoose.js (MongoDB): database
-  Express.js: backend framework
-  Angular 2: frontend framework
-  Node.js: runtime environment
-  Angular CLI: project scaffolding
-  Bootstrap: layout and styles
-  Font Awesome: icons
+  [Mongoose.js (MongoDB):](http://www.mongoosejs.com/) database
+  [Express.js:](http://expressjs.com/) backend framework
+  [Angular 2:](https://angular.io/) frontend framework
+  [Node.js:](https://nodejs.org/) runtime environment
+  [Angular CLI:](https://cli.angular.io/) project scaffolding
+  [Bootstrap:](http://www.getbootstrap.com/) layout and styles
+  [Font Awesome:](http://fontawesome.io/) icons
+  
+  2. Install Node.js and MongoDB
+     Install Angular CLI: npm i angular-cli -g@latest
+     From project root folder install all the dependencies: npm i 
+  3. Command window 1: mongod: run MongoDB (read more about [Mongoose.js (MongoDB):](http://www.mongoosejs.com/) database ) 
+  (be aware to have mongoDb open and create a db reviewking like in my server.js or rename it.)
+     
+     Command window 2: npm run build: build the project and run and npm run dev: keep watching the files for changes Express server http://localhost:3000
+     
+     Command window 3: npm start: run App server http://localhost:4200
+     
+     ## BUT
+  
+  # For Frontend developers(how don't now much about backend)
+  
+  1. Angular cli: generate the project frontend app.
+  2. Npm install.
+  3. Add a server.js file for backend Api.
+  4. `npm run build` open localhost:3000 and `npm start` localhost:4200 from dif  Command window.
+  5. Now  on localhost:4200 where data loads from database you see just is Loading... and in console `Failed to load resource: net::ERR_CONNECTION_REFUSED`
+  5. Now you can work only on localhost:4200 if you have a [CORS](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi) extension from Chrome opened.
+  be sure you have localhost:3000 runing.
+  
+  
+  ## Any issue
+    You notice any problem or error.
+  ## Author
+    [Cazacu Dragos](https://github.com/cazacu1982)
+  
 
