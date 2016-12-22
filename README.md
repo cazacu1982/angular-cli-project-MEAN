@@ -30,17 +30,17 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-About Project:
+# About Project:
 
 1.The front-end of this project was generated with Angular CLI.
-
-This project uses the MEAN stack:
-
-Mongoose.js (MongoDB): database
-Express.js: backend framework
-Angular 2: frontend framework
-Node.js: runtime environment
-Angular CLI: project scaffolding
-Bootstrap: layout and styles
-Font Awesome: icons
+  
+  This project uses the [MEAN stack:](https://en.wikipedia.org/wiki/MEAN_(software_bundle))
+  
+  Mongoose.js (MongoDB): database
+  Express.js: backend framework
+  Angular 2: frontend framework
+  Node.js: runtime environment
+  Angular CLI: project scaffolding
+  Bootstrap: layout and styles
+  Font Awesome: icons
 
