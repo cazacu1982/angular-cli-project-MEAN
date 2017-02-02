@@ -12,6 +12,18 @@ app.use(bodyParser.json());                             // parse application/x-w
 app.use(bodyParser.urlencoded({ extended: false }));    // parse application/json
 app.use(morgan('dev'));                                 // log requests to the console (express4)
 
+app.use(function(req, res, next) {
+  res.header('Access-Control-Allow-Origin', 'http://localhost:4200');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, content-type, Accept, Authorization, charset');
+  if ('OPTIONS' == req.method) {
+    res.sendStatus(200);
+  } else {
+    next();
+  }
+
+});
+
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/reviewking');
 var db = mongoose.connection;
